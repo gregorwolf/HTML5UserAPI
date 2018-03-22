@@ -8,8 +8,7 @@ This project provides a simple HTML5 webpage with links to all endpoints of the 
 * Clone in SAP Web IDE and deploy to SCP
 * Download [html5userapi.zip](html5userapi.zip?raw=true), upload via **Import from File** in HTML5 Applications, navigate to Versioning -> Versions and activate
 
-
-##Detailed Description for the upload
+## Detailed Description for the upload
 
 Download [html5userapi.zip](html5userapi.zip?raw=true) and then open Applications -> HTML5 Applications and click on **Import from File**
 
