@@ -38,5 +38,10 @@
     "loadJSONFiles": true,
     "loadCustomRequests": false,
     "mockRequestsFilePath": ""
+  },
+  "hcpdeploy": {
+    "account": "s0001142741trial",
+    "name": "html5userapi",
+    "lastVersionWeTriedToDeploy": "0.0.3"
   }
 }

@@ -1,4 +1,3 @@
-
 visual_ext_index.html
 /webapp/visual_ext_index.html
 fioriHtmlRunner.html
@@ -12,3 +11,4 @@ UIAdaptation_index.html
 changes_preview.js
 preview.json
 cp.project.properties.json
+/.user.project.json
