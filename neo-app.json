@@ -25,6 +25,15 @@
         "type": "service",
         "name": "userapi"
       }
+    },
+    {
+      "path": "/sap",
+      "target": {
+        "type": "destination",
+        "name": "SAP_ABAP_BACKEND",
+        "entryPath": "/sap"
+      },
+      "description": "SAP ABAP Backend"
     }
   ],
   "logoutPage": "/webapp/logout.html",
