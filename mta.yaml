@@ -1,0 +1,28 @@
+_schema-version: 3.1.0
+parameters:
+  hcp-deployer-version: 1.2.0
+ID: html5userapi
+version: 0.0.4
+modules:
+  - name: html5userapi
+    type: com.sap.hcp.html5
+    path: .
+    parameters:
+      name: html5userapi
+      version: 0.0.4
+      active: true
+      display-name: html5userapi
+      destinations:
+        - name: SAP_ABAP_BACKEND
+          type: HTTP
+ 
+  - name: backend-destination
+    type: com.sap.hcp.destination
+    path: .
+    parameters:
+      name: SAP_ABAP_BACKEND
+      type: HTTP
+      url: 'http://npl752.virtual:44300'
+      description: OData Destination
+      authentication: PrincipalPropagation
+      proxy-type: OnPremise
