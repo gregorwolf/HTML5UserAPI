@@ -18,7 +18,7 @@ modules:
  
   - name: backend-destination
     type: com.sap.hcp.destination
-    path: .
+    path: destination
     parameters:
       name: SAP_ABAP_BACKEND
       type: HTTP

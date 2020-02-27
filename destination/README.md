@@ -1,0 +1,1 @@
+This file is here to have the folder also in git.
