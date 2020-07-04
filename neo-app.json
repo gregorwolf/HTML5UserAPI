@@ -34,6 +34,15 @@
         "entryPath": "/sap"
       },
       "description": "SAP ABAP Backend"
+    },
+    {
+      "path": "/hip-sec-hpsm-service",
+      "target": {
+        "type": "destination",
+        "name": "HIP_BACKEND",
+        "entryPath": "/hip-sec-hpsm-service"
+      },
+      "description": "HIP Backend"
     }
   ],
   "logoutPage": "/webapp/logout.html",
